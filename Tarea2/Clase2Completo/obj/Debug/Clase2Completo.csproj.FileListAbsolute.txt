@@ -1,0 +1,60 @@
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\obj\Debug\Clase2Completo.csprojResolveAssemblyReference.cache
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\csc.exe
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\System.Collections.Immutable.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\vbc.exe
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\VBCSCompiler.exe
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\roslyn\VBCSCompiler.exe.config
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\Clase2Completo.dll.config
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\Clase2Completo.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\Clase2Completo.pdb
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\obj\Debug\Clase2Completo.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\Clase2Completo\Clase2Completo\obj\Debug\Clase2Completo.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\csc.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\System.Collections.Immutable.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\vbc.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\VBCSCompiler.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\roslyn\VBCSCompiler.exe.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\Clase2Completo.dll.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\Clase2Completo.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\Clase2Completo.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\obj\Debug\Clase2Completo.csprojResolveAssemblyReference.cache
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\obj\Debug\Clase2Completo.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase 2\Clase2Completo\Clase2Completo\obj\Debug\Clase2Completo.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\csc.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\System.Collections.Immutable.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\vbc.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\VBCSCompiler.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\roslyn\VBCSCompiler.exe.config
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\Clase2Completo.dll.config
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\Clase2Completo.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\Clase2Completo.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\obj\Debug\Clase2Completo.csprojResolveAssemblyReference.cache
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\obj\Debug\Clase2Completo.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Proyecto\Clase2Completo\obj\Debug\Clase2Completo.pdb
