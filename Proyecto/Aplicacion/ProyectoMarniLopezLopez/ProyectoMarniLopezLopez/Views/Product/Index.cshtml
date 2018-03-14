@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ProyectoMarniLopezLopez.Models.prd_master>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.prd_shdsc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prd_lgdsc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prd_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cat_master.cat_dsc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sts_master.sts_dsc)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.prd_shdsc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.prd_lgdsc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.prd_price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cat_master.cat_dsc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sts_master.sts_dsc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.prd_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.prd_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.prd_id })
+        </td>
+    </tr>
+}
+
+</table>

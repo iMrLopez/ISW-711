@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c0d6fe8d856440e99724d5ea5034584e" Name="Diagram1">
+        <EntityTypeShape EntityType="prj_marnylopezModel.cat_master" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.dtb_master" Width="1.5" PointX="3.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.pay_master" Width="1.5" PointX="3.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.prd_master" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.rol_master" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.srv_master" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.sts_master" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.usr_master" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.srv_detail" Width="1.5" PointX="8.25" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_prd_master_cat_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_srv_master_dtb_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_srv_master_pay_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_prd_master_sts_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_srv_detail_prd_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_usr_master_rol_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_srv_detail_srv_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_srv_master_sts_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_srv_master_usr_master" ManuallyRouted="false" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_usr_master_sts_master" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
