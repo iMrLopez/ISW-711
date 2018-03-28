@@ -128,7 +128,6 @@ D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\Proyecto
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\bin\Microsoft.AI.WindowsServer.xml
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\bin\Microsoft.AI.Web.xml
-D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.csprojResolveAssemblyReference.cache
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.csproj.CoreCompileInputs.cache
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.dll
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.pdb

@@ -11,7 +11,8 @@ namespace ProyectoMarniLopezLopez.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class srv_master
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -19,13 +20,19 @@ namespace ProyectoMarniLopezLopez.Models
         {
             this.srv_detail = new HashSet<srv_detail>();
         }
-    
+        [Display(Name = "ID del Servicio")]
         public int srv_id { get; set; }
+        [Display(Name = "Fecha del servicio")]
         public System.DateTime srv_date { get; set; }
+        [Display(Name = "Total del servicio")]
         public decimal srv_total { get; set; }
+        [Display(Name = "ID de la mesa")]
         public int dtb_id { get; set; }
+        [Display(Name = "ID del pago")]
         public Nullable<int> pay_id { get; set; }
+        [Display(Name = "ID del Estado")]
         public int sts_id { get; set; }
+        [Display(Name = "ID del Usuario")]
         public string usr_id { get; set; }
     
         public virtual dtb_master dtb_master { get; set; }

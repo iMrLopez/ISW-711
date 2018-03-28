@@ -4,31 +4,48 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.cat_dsc)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.cat_dsc)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.cat_id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.cat_id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.cat_id })
-        </td>
-    </tr>
-}
-
-</table>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-icon" data-background-color="green">
+                <i class="material-icons">event_seat</i>
+            </div>
+            <div class="card-content">
+                <div class="card-title">
+                    <h4>Listado de categorias<a class="btn btn-primary btn-round pull-right" href="@Url.Action("Create")"><i class="material-icons">create</i> Crear Mesa</a></h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="table-responsive table-sales">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.cat_dsc)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.cat_dsc)
+                                            </td>
+                                            <td style="text-align:center">
+                                                <a href="@Url.Action("Details","Table",new { id = item.cat_id })" type="button" rel="tooltip" class="btn btn-info" data-original-title="" title=""><i class="material-icons">person</i><div class="ripple-container"></div> </a>
+                                                <a href="@Url.Action("Edit","Table",new { id = item.cat_id })" type="button" rel="tooltip" class="btn btn-success" data-original-title="" title=""><i class="material-icons">edit</i><div class="ripple-container"></div></a>
+                                                <a href="@Url.Action("Delete","Table",new { id = item.cat_id })" type="button" rel="tooltip" class="btn btn-danger" data-original-title="" title=""><i class="material-icons">close</i><div class="ripple-container"></div></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

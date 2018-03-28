@@ -155,6 +155,7 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SalonController.cs" />
     <Compile Include="Controllers\TableController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -317,6 +318,11 @@
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Shared\_sidebar-admin.cshtml" />
     <Content Include="Views\Home\IndexWaiter.cshtml" />
+    <Content Include="Views\Salon\Create.cshtml" />
+    <Content Include="Views\Salon\Delete.cshtml" />
+    <Content Include="Views\Salon\Details.cshtml" />
+    <Content Include="Views\Salon\Edit.cshtml" />
+    <Content Include="Views\Salon\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

@@ -11,7 +11,8 @@ namespace ProyectoMarniLopezLopez.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class prd_master
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -19,12 +20,17 @@ namespace ProyectoMarniLopezLopez.Models
         {
             this.srv_detail = new HashSet<srv_detail>();
         }
-    
+        [Display(Name = "ID del Producto")]
         public int prd_id { get; set; }
+        [Display(Name = "Descripcion Corta")]
         public string prd_shdsc { get; set; }
+        [Display(Name = "Descripcion Larga")]
         public string prd_lgdsc { get; set; }
+        [Display(Name = "Precio del producto")]
         public decimal prd_price { get; set; }
+        
         public int cat_id { get; set; }
+        
         public int sts_id { get; set; }
     
         public virtual cat_master cat_master { get; set; }

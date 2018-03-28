@@ -11,7 +11,8 @@ namespace ProyectoMarniLopezLopez.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class cat_master
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -19,8 +20,9 @@ namespace ProyectoMarniLopezLopez.Models
         {
             this.prd_master = new HashSet<prd_master>();
         }
-    
+        [Display(Name = "ID de la categoria")]
         public int cat_id { get; set; }
+        [Display(Name = "Descripcion de la categoria")]
         public string cat_dsc { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

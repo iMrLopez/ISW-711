@@ -11,12 +11,17 @@ namespace ProyectoMarniLopezLopez.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class srv_detail
     {
+        [Display(Name = "ID del Servicio")]
         public int srv_id { get; set; }
+        [Display(Name = "Cantidad del Servicio")]
         public int srv_qty { get; set; }
+        [Display(Name = "Notas del servicio")]
         public string srv_notes { get; set; }
+        [Display(Name = "ID del producto")]
         public int prd_id { get; set; }
     
         public virtual prd_master prd_master { get; set; }
