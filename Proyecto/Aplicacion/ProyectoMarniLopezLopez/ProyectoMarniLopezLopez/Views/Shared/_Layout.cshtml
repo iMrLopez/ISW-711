@@ -13,8 +13,27 @@
 </head>
 <body>
     <div class="wrapper">
-        @{Html.RenderPartial("_sidebar", null); }
+        @{
+            //Render the menu or redirect the user to the login screen
 
+            if (Session["UserType"] != null)
+            {
+
+                if (int.Parse(Session["UserType"].ToString()) == 1)
+                {
+
+                    Html.RenderPartial("_sidebar-admin", null);
+                }
+                else
+                {
+                    Html.RenderPartial("_sidebar-waiter", null);
+                }
+            }else{
+                Response.Redirect(Url.Action("Index", "Login"));
+
+            }
+        }
+        }
         <div class="main-panel">
             @{Html.RenderPartial("_topnavbar", null); }
             <div class="content">
