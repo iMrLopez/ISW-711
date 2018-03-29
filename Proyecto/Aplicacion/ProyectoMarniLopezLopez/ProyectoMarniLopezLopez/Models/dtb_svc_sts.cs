@@ -12,24 +12,18 @@ namespace ProyectoMarniLopezLopez.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class prd_master
+    public partial class dtb_svc_sts
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public prd_master()
+        public dtb_svc_sts()
         {
-            this.srv_detail = new HashSet<srv_detail>();
+            this.dtb_master = new HashSet<dtb_master>();
         }
     
-        public int prd_id { get; set; }
-        public string prd_shdsc { get; set; }
-        public string prd_lgdsc { get; set; }
-        public decimal prd_price { get; set; }
-        public int cat_id { get; set; }
-        public int sts_id { get; set; }
+        public int dtb_svc_sts_id { get; set; }
+        public string dtb_svc_sts_dsc { get; set; }
     
-        public virtual cat_master cat_master { get; set; }
-        public virtual sts_master sts_master { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<srv_detail> srv_detail { get; set; }
+        public virtual ICollection<dtb_master> dtb_master { get; set; }
     }
 }

@@ -14,6 +14,14 @@
     <Property Name="dtb_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="dtb_status" Type="bit" Nullable="false" />
     <Property Name="dtb_descr" Type="varchar" MaxLength="50" />
+    <Property Name="dtb_svc_sts_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="dtb_svc_sts">
+    <Key>
+      <PropertyRef Name="dtb_svc_sts_id" />
+    </Key>
+    <Property Name="dtb_svc_sts_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dtb_svc_sts_dsc" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityType Name="pay_master">
     <Key>
@@ -81,6 +89,18 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
     <Property Name="sts_id" Type="int" Nullable="false" />
     <Property Name="rol_id" Type="int" Nullable="false" />
   </EntityType>
+  <Association Name="FK_dtb_master_dtb_svc_sts">
+    <End Role="dtb_svc_sts" Type="Self.dtb_svc_sts" Multiplicity="1" />
+    <End Role="dtb_master" Type="Self.dtb_master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dtb_svc_sts">
+        <PropertyRef Name="dtb_svc_sts_id" />
+      </Principal>
+      <Dependent Role="dtb_master">
+        <PropertyRef Name="dtb_svc_sts_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_prd_master_cat_master">
     <End Role="cat_master" Type="Self.cat_master" Multiplicity="1" />
     <End Role="prd_master" Type="Self.prd_master" Multiplicity="*" />
@@ -204,6 +224,7 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
   <EntityContainer Name="prj_marnylopezModelStoreContainer">
     <EntitySet Name="cat_master" EntityType="Self.cat_master" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="dtb_master" EntityType="Self.dtb_master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dtb_svc_sts" EntityType="Self.dtb_svc_sts" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="pay_master" EntityType="Self.pay_master" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="prd_master" EntityType="Self.prd_master" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="rol_master" EntityType="Self.rol_master" Schema="dbo" store:Type="Tables" />
@@ -218,6 +239,10 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
     [srv_detail].[prd_id] AS [prd_id]
     FROM [dbo].[srv_detail] AS [srv_detail]</DefiningQuery>
     </EntitySet>
+    <AssociationSet Name="FK_dtb_master_dtb_svc_sts" Association="Self.FK_dtb_master_dtb_svc_sts">
+      <End Role="dtb_svc_sts" EntitySet="dtb_svc_sts" />
+      <End Role="dtb_master" EntitySet="dtb_master" />
+    </AssociationSet>
     <AssociationSet Name="FK_prd_master_cat_master" Association="Self.FK_prd_master_cat_master">
       <End Role="cat_master" EntitySet="cat_master" />
       <End Role="prd_master" EntitySet="prd_master" />

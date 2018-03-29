@@ -11,8 +11,7 @@ namespace ProyectoMarniLopezLopez.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class pay_master
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -20,9 +19,8 @@ namespace ProyectoMarniLopezLopez.Models
         {
             this.srv_master = new HashSet<srv_master>();
         }
-        [Display(Name = "ID del tipo de pago")]
+    
         public int pay_id { get; set; }
-        [Display(Name = "Descripcion del tipo de pago")]
         public string pay_dsc { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

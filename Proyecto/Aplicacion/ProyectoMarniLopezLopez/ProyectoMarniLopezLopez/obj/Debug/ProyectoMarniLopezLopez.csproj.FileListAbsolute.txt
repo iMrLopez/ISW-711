@@ -131,3 +131,4 @@ D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\Proyecto
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.csproj.CoreCompileInputs.cache
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.dll
 D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.pdb
+D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.csprojResolveAssemblyReference.cache

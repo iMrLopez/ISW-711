@@ -34,5 +34,6 @@ namespace ProyectoMarniLopezLopez.Models
         public virtual DbSet<sts_master> sts_master { get; set; }
         public virtual DbSet<usr_master> usr_master { get; set; }
         public virtual DbSet<srv_detail> srv_detail { get; set; }
+        public virtual DbSet<dtb_svc_sts> dtb_svc_sts { get; set; }
     }
 }

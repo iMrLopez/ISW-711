@@ -17,7 +17,8 @@ namespace ProyectoMarniLopezLopez.Controllers
         // GET: Table
         public ActionResult Index()
         {
-            return View(db.dtb_master.ToList());
+            var dtb_master = db.dtb_master.Include(d => d.dtb_svc_sts);
+            return View(dtb_master.ToList());
         }
 
         // GET: Table/Details/5
@@ -38,6 +39,7 @@ namespace ProyectoMarniLopezLopez.Controllers
         // GET: Table/Create
         public ActionResult Create()
         {
+            ViewBag.dtb_svc_sts_id = new SelectList(db.dtb_svc_sts, "dtb_svc_sts_id", "dtb_svc_sts_dsc");
             return View();
         }
 
@@ -46,7 +48,7 @@ namespace ProyectoMarniLopezLopez.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "dtb_id,dtb_status,dtb_descr")] dtb_master dtb_master)
+        public ActionResult Create([Bind(Include = "dtb_id,dtb_status,dtb_descr,dtb_svc_sts_id")] dtb_master dtb_master)
         {
             if (ModelState.IsValid)
             {
@@ -55,6 +57,7 @@ namespace ProyectoMarniLopezLopez.Controllers
                 return RedirectToAction("Index");
             }
 
+            ViewBag.dtb_svc_sts_id = new SelectList(db.dtb_svc_sts, "dtb_svc_sts_id", "dtb_svc_sts_dsc", dtb_master.dtb_svc_sts_id);
             return View(dtb_master);
         }
 
@@ -70,6 +73,7 @@ namespace ProyectoMarniLopezLopez.Controllers
             {
                 return HttpNotFound();
             }
+            ViewBag.dtb_svc_sts_id = new SelectList(db.dtb_svc_sts, "dtb_svc_sts_id", "dtb_svc_sts_dsc", dtb_master.dtb_svc_sts_id);
             return View(dtb_master);
         }
 
@@ -78,7 +82,7 @@ namespace ProyectoMarniLopezLopez.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "dtb_id,dtb_status,dtb_descr")] dtb_master dtb_master)
+        public ActionResult Edit([Bind(Include = "dtb_id,dtb_status,dtb_descr,dtb_svc_sts_id")] dtb_master dtb_master)
         {
             if (ModelState.IsValid)
             {
@@ -86,6 +90,7 @@ namespace ProyectoMarniLopezLopez.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+            ViewBag.dtb_svc_sts_id = new SelectList(db.dtb_svc_sts, "dtb_svc_sts_id", "dtb_svc_sts_dsc", dtb_master.dtb_svc_sts_id);
             return View(dtb_master);
         }
 

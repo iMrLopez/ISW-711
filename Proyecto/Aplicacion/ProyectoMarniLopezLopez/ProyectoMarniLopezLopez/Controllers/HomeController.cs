@@ -15,7 +15,8 @@ namespace ProyectoMarniLopezLopez.Controllers
         }
 
         public ActionResult IndexWaiter() {
-            return View();
+            Models.prj_marnylopezEntities1 db = new Models.prj_marnylopezEntities1();
+            return View(db.dtb_master.ToList());
         }
 
 

@@ -16,6 +16,8 @@
     <Property Name="dtb_status" Type="Boolean" Nullable="false" />
     <Property Name="dtb_descr" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_master_dtb_master" FromRole="dtb_master" ToRole="srv_master" />
+    <Property Name="dtb_svc_sts_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="dtb_svc_sts" Relationship="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts" FromRole="dtb_master" ToRole="dtb_svc_sts" />
   </EntityType>
   <EntityType Name="pay_master">
     <Key>
@@ -269,5 +271,30 @@
       <End Role="sts_master" EntitySet="sts_master" />
       <End Role="usr_master" EntitySet="usr_master" />
     </AssociationSet>
+    <EntitySet Name="dtb_svc_sts" EntityType="prj_marnylopezModel.dtb_svc_sts" />
+    <AssociationSet Name="FK_dtb_master_dtb_svc_sts" Association="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts">
+      <End Role="dtb_svc_sts" EntitySet="dtb_svc_sts" />
+      <End Role="dtb_master" EntitySet="dtb_master" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="dtb_svc_sts">
+    <Key>
+      <PropertyRef Name="dtb_svc_sts_id" />
+    </Key>
+    <Property Name="dtb_svc_sts_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dtb_svc_sts_dsc" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="dtb_master" Relationship="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts" FromRole="dtb_svc_sts" ToRole="dtb_master" />
+  </EntityType>
+  <Association Name="FK_dtb_master_dtb_svc_sts">
+    <End Type="prj_marnylopezModel.dtb_svc_sts" Role="dtb_svc_sts" Multiplicity="1" />
+    <End Type="prj_marnylopezModel.dtb_master" Role="dtb_master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dtb_svc_sts">
+        <PropertyRef Name="dtb_svc_sts_id" />
+      </Principal>
+      <Dependent Role="dtb_master">
+        <PropertyRef Name="dtb_svc_sts_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

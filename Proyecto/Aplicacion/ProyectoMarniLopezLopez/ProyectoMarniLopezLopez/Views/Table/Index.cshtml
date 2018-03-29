@@ -8,11 +8,11 @@
     <div class="col-md-12">
         <div class="card">
             <div class="card-header card-header-icon" data-background-color="green">
-                <i class="material-icons">event_seat</i>
+                <i class="material-icons">list</i>
             </div>
             <div class="card-content">
                 <div class="card-title">
-                    <h4>Listado de mesas<a class="btn btn-primary btn-round pull-right" href="@Url.Action("Create")"><i class="material-icons">create</i> Crear Mesa</a></h4>
+                    <h4>Listado de Mesas<a class="btn btn-primary btn-round pull-right" href="@Url.Action("Create")"><i class="material-icons">create</i> Crear Mesa</a></h4>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
@@ -26,25 +26,31 @@
                                         <th>
                                             @Html.DisplayNameFor(model => model.dtb_descr)
                                         </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.dtb_svc_sts.dtb_svc_sts_dsc)
+                                        </th>
                                         <th style="text-align:center">Acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach (var item in Model)
                                     {
-                                        <tr>
-                                            <td>
-                                                @Html.DisplayFor(modelItem => item.dtb_status)
-                                            </td>
-                                            <td>
-                                                @Html.DisplayFor(modelItem => item.dtb_descr)
-                                            </td>
-                                            <td style="text-align:center">
-                                                <a href="@Url.Action("Details","Table",new { id = item.dtb_id })" type="button" rel="tooltip" class="btn btn-info" data-original-title="" title=""><i class="material-icons">person</i><div class="ripple-container"></div> </a>
-                                                <a href="@Url.Action("Edit","Table",new { id = item.dtb_id })" type="button" rel="tooltip" class="btn btn-success" data-original-title="" title=""><i class="material-icons">edit</i><div class="ripple-container"></div></a>
-                                                <a href="@Url.Action("Delete","Table",new { id = item.dtb_id })" type="button" rel="tooltip" class="btn btn-danger" data-original-title="" title=""><i class="material-icons">close</i><div class="ripple-container"></div></a>
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.dtb_status)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.dtb_descr)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.dtb_svc_sts.dtb_svc_sts_dsc)
+                                        </td>
+                                        <td style="text-align:center">
+                                            <a href="@Url.Action("Details","Table",new { id = item.dtb_id })" type="button" rel="tooltip" class="btn btn-info" data-original-title="" title=""><i class="material-icons">person</i><div class="ripple-container"></div> </a>
+                                            <a href="@Url.Action("Edit","Table",new { id = item.dtb_id })" type="button" rel="tooltip" class="btn btn-success" data-original-title="" title=""><i class="material-icons">edit</i><div class="ripple-container"></div></a>
+                                            <a href="@Url.Action("Delete","Table",new { id = item.dtb_id })" type="button" rel="tooltip" class="btn btn-danger" data-original-title="" title=""><i class="material-icons">close</i><div class="ripple-container"></div></a>
+                                        </td>
+                                    </tr>
                                     }
                                 </tbody>
                             </table>

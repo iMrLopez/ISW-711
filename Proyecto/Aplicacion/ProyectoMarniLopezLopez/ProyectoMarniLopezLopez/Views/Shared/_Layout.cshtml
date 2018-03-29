@@ -28,14 +28,26 @@
                 {
                     Html.RenderPartial("_sidebar-waiter", null);
                 }
-            }else{
+            }
+            else
+            {
                 Response.Redirect(Url.Action("Index", "Login"));
 
             }
         }
         }
         <div class="main-panel">
-            @{Html.RenderPartial("_topnavbar", null); }
+            @{
+                try
+                {
+                    Html.RenderPartial("_topnavbar");
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+            }
             <div class="content">
                 @RenderBody()
             </div>

@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="prj_marnylopezModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="prj_marnylopezModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="cat_master">
           <Key>
             <PropertyRef Name="cat_id" />
@@ -19,6 +19,14 @@
           <Property Name="dtb_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="dtb_status" Type="bit" Nullable="false" />
           <Property Name="dtb_descr" Type="varchar" MaxLength="50" />
+          <Property Name="dtb_svc_sts_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dtb_svc_sts">
+          <Key>
+            <PropertyRef Name="dtb_svc_sts_id" />
+          </Key>
+          <Property Name="dtb_svc_sts_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="dtb_svc_sts_dsc" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <EntityType Name="pay_master">
           <Key>
@@ -86,6 +94,18 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
           <Property Name="sts_id" Type="int" Nullable="false" />
           <Property Name="rol_id" Type="int" Nullable="false" />
         </EntityType>
+        <Association Name="FK_dtb_master_dtb_svc_sts">
+          <End Role="dtb_svc_sts" Type="Self.dtb_svc_sts" Multiplicity="1" />
+          <End Role="dtb_master" Type="Self.dtb_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dtb_svc_sts">
+              <PropertyRef Name="dtb_svc_sts_id" />
+            </Principal>
+            <Dependent Role="dtb_master">
+              <PropertyRef Name="dtb_svc_sts_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_prd_master_cat_master">
           <End Role="cat_master" Type="Self.cat_master" Multiplicity="1" />
           <End Role="prd_master" Type="Self.prd_master" Multiplicity="*" />
@@ -209,6 +229,7 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
         <EntityContainer Name="prj_marnylopezModelStoreContainer">
           <EntitySet Name="cat_master" EntityType="Self.cat_master" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="dtb_master" EntityType="Self.dtb_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dtb_svc_sts" EntityType="Self.dtb_svc_sts" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="pay_master" EntityType="Self.pay_master" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="prd_master" EntityType="Self.prd_master" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="rol_master" EntityType="Self.rol_master" Schema="dbo" store:Type="Tables" />
@@ -223,6 +244,10 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
     [srv_detail].[prd_id] AS [prd_id]
     FROM [dbo].[srv_detail] AS [srv_detail]</DefiningQuery>
           </EntitySet>
+          <AssociationSet Name="FK_dtb_master_dtb_svc_sts" Association="Self.FK_dtb_master_dtb_svc_sts">
+            <End Role="dtb_svc_sts" EntitySet="dtb_svc_sts" />
+            <End Role="dtb_master" EntitySet="dtb_master" />
+          </AssociationSet>
           <AssociationSet Name="FK_prd_master_cat_master" Association="Self.FK_prd_master_cat_master">
             <End Role="cat_master" EntitySet="cat_master" />
             <End Role="prd_master" EntitySet="prd_master" />
@@ -264,8 +289,7 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
             <End Role="usr_master" EntitySet="usr_master" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="prj_marnylopezModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -285,6 +309,8 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
           <Property Name="dtb_status" Type="Boolean" Nullable="false" />
           <Property Name="dtb_descr" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_master_dtb_master" FromRole="dtb_master" ToRole="srv_master" />
+          <Property Name="dtb_svc_sts_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="dtb_svc_sts" Relationship="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts" FromRole="dtb_master" ToRole="dtb_svc_sts" />
         </EntityType>
         <EntityType Name="pay_master">
           <Key>
@@ -538,7 +564,32 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
             <End Role="sts_master" EntitySet="sts_master" />
             <End Role="usr_master" EntitySet="usr_master" />
           </AssociationSet>
+          <EntitySet Name="dtb_svc_sts" EntityType="prj_marnylopezModel.dtb_svc_sts" />
+          <AssociationSet Name="FK_dtb_master_dtb_svc_sts" Association="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts">
+            <End Role="dtb_svc_sts" EntitySet="dtb_svc_sts" />
+            <End Role="dtb_master" EntitySet="dtb_master" />
+          </AssociationSet>
         </EntityContainer>
+        <EntityType Name="dtb_svc_sts">
+          <Key>
+            <PropertyRef Name="dtb_svc_sts_id" />
+          </Key>
+          <Property Name="dtb_svc_sts_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dtb_svc_sts_dsc" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="dtb_master" Relationship="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts" FromRole="dtb_svc_sts" ToRole="dtb_master" />
+        </EntityType>
+        <Association Name="FK_dtb_master_dtb_svc_sts">
+          <End Type="prj_marnylopezModel.dtb_svc_sts" Role="dtb_svc_sts" Multiplicity="1" />
+          <End Type="prj_marnylopezModel.dtb_master" Role="dtb_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dtb_svc_sts">
+              <PropertyRef Name="dtb_svc_sts_id" />
+            </Principal>
+            <Dependent Role="dtb_master">
+              <PropertyRef Name="dtb_svc_sts_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -556,6 +607,7 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
           <EntitySetMapping Name="dtb_master">
             <EntityTypeMapping TypeName="prj_marnylopezModel.dtb_master">
               <MappingFragment StoreEntitySet="dtb_master">
+                <ScalarProperty Name="dtb_svc_sts_id" ColumnName="dtb_svc_sts_id" />
                 <ScalarProperty Name="dtb_id" ColumnName="dtb_id" />
                 <ScalarProperty Name="dtb_status" ColumnName="dtb_status" />
                 <ScalarProperty Name="dtb_descr" ColumnName="dtb_descr" />
@@ -628,6 +680,14 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
                 <ScalarProperty Name="srv_qty" ColumnName="srv_qty" />
                 <ScalarProperty Name="srv_notes" ColumnName="srv_notes" />
                 <ScalarProperty Name="prd_id" ColumnName="prd_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dtb_svc_sts">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.dtb_svc_sts">
+              <MappingFragment StoreEntitySet="dtb_svc_sts">
+                <ScalarProperty Name="dtb_svc_sts_dsc" ColumnName="dtb_svc_sts_dsc" />
+                <ScalarProperty Name="dtb_svc_sts_id" ColumnName="dtb_svc_sts_id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

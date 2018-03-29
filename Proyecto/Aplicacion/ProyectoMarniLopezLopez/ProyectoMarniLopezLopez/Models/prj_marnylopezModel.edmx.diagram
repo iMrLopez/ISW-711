@@ -24,6 +24,8 @@
         <AssociationConnector Association="prj_marnylopezModel.FK_srv_master_sts_master" ManuallyRouted="false" />
         <AssociationConnector Association="prj_marnylopezModel.FK_srv_master_usr_master" ManuallyRouted="false" />
         <AssociationConnector Association="prj_marnylopezModel.FK_usr_master_sts_master" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="prj_marnylopezModel.dtb_svc_sts" Width="1.5" PointX="1.5" PointY="11.5" />
+        <AssociationConnector Association="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
