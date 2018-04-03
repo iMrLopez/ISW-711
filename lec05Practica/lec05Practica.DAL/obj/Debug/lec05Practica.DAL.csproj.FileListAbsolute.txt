@@ -1,0 +1,37 @@
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DAL.dll.config
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DAL.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DAL.pdb
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DATA.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Common.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Interfaces.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.OrmLite.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Text.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DATA.pdb
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Common.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Interfaces.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.OrmLite.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Text.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\obj\Debug\lec05Practica.DAL.csprojResolveAssemblyReference.cache
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\obj\Debug\lec05Practica.DAL.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica.DAL\obj\Debug\lec05Practica.DAL.pdb
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DAL.dll.config
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DAL.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DAL.pdb
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DATA.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Common.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Text.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\lec05Practica.DATA.pdb
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Common.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.OrmLite.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\bin\Debug\ServiceStack.Text.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\obj\Debug\lec05Practica.DAL.csprojResolveAssemblyReference.cache
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\obj\Debug\lec05Practica.DAL.csproj.CoreCompileInputs.cache
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\obj\Debug\lec05Practica.DAL.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica.DAL\obj\Debug\lec05Practica.DAL.pdb

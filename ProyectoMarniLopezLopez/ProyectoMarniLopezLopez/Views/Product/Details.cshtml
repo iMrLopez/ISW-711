@@ -1,0 +1,59 @@
+﻿@model ProyectoMarniLopezLopez.Models.prd_master
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>prd_master</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.prd_shdsc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prd_shdsc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prd_lgdsc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prd_lgdsc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prd_price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prd_price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cat_master.cat_dsc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cat_master.cat_dsc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sts_master.sts_dsc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sts_master.sts_dsc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.prd_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

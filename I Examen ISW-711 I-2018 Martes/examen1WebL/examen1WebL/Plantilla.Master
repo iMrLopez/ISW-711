@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Plantilla.master.cs" Inherits="examen1WebL.Plantilla" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Examen Marny Lopez Lopez</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <asp:Label ID="Label1" runat="server" Text="Examen 1"></asp:Label>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="Login.aspx">Login</a></li>
+                 <li><a href="InsertarRecreativa.aspx">InsertarRecreativas</a></li>
+                <li><a href="listarRecreativa.aspx">ListadoCarreras</a></li>
+            </ul>
+             <ul class="nav navbar-nav navbar-right">
+                <li><span style="margin-right: 6px;" class="glyphicon glyphicon-user"></span>Bienvenido: <asp:Label ID="lbUsuario" runat="server" Text=""></asp:Label></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Cerrar sesión</a></li>
+            </ul>
+        </div>
+    </nav>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        Examen 1 - Marny A. Lopez Lopez - 116230677
+    </footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ApplicationInsights.config
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\csc.exe
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\System.Collections.Immutable.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\vbc.exe
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\VBCSCompiler.exe
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\roslyn\VBCSCompiler.exe.config
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\lec05Practica.dll.config
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\lec05Practica.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\lec05Practica.pdb
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\lec05Practica.DAL.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\lec05Practica.DATA.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.Web.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.WindowsServer.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.ApplicationInsights.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.OrmLite.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.OrmLite.SqlServer.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.Common.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.Interfaces.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.Text.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\lec05Practica.DAL.pdb
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\lec05Practica.DATA.pdb
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.Web.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.AI.WindowsServer.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.ApplicationInsights.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.OrmLite.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.OrmLite.SqlServer.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.Common.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.Interfaces.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\bin\ServiceStack.Text.xml
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\obj\Debug\lec05Practica.UI.csprojResolveAssemblyReference.cache
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\obj\Debug\lec05Practica.dll
+c:\users\jesús ureña blanco\documents\visual studio 2015\Projects\lec05Practica\lec05Practica\obj\Debug\lec05Practica.pdb
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ApplicationInsights.config
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\csc.exe
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\vbc.exe
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\VBCSCompiler.exe
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\lec05Practica.dll.config
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\lec05Practica.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\lec05Practica.pdb
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\lec05Practica.DAL.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\lec05Practica.DATA.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.Web.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.OrmLite.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.Common.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.Interfaces.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.Text.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\lec05Practica.DAL.pdb
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\lec05Practica.DAL.dll.config
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\lec05Practica.DATA.pdb
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.Web.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.OrmLite.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.OrmLite.SqlServer.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.Common.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.Interfaces.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\bin\ServiceStack.Text.xml
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\obj\Debug\lec05Practica.UI.csprojResolveAssemblyReference.cache
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\obj\Debug\lec05Practica.UI.csproj.CoreCompileInputs.cache
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\obj\Debug\lec05Practica.dll
+C:\Users\SA\Desktop\lec05Practica\lec05Practica\obj\Debug\lec05Practica.pdb

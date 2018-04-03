@@ -1,0 +1,17 @@
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\ProductsApp.dll.config
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\ProductsApp.dll
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\ProductsApp.pdb
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\Newtonsoft.Json.dll
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\System.Net.Http.Formatting.dll
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\System.Web.Http.dll
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\System.Web.Http.WebHost.dll
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\Newtonsoft.Json.xml
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\System.Net.Http.Formatting.xml
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\System.Web.Http.xml
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\bin\System.Web.Http.WebHost.xml
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\obj\Debug\ProductsApp.csprojResolveAssemblyReference.cache
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\obj\Debug\ProductsApp.csproj.CoreCompileInputs.cache
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\obj\Debug\ProductsApp.dll
+D:\Repositories\UTN\ISW-711\Adicional\Aplicacion\ProductsApp\ProductsApp\obj\Debug\ProductsApp.pdb

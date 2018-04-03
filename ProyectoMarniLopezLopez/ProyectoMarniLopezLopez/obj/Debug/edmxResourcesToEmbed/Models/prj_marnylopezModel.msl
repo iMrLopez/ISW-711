@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="prj_marnylopezModelStoreContainer" CdmEntityContainer="prj_marnylopezEntities1">
+    <EntitySetMapping Name="cat_master">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.cat_master">
+        <MappingFragment StoreEntitySet="cat_master">
+          <ScalarProperty Name="cat_id" ColumnName="cat_id" />
+          <ScalarProperty Name="cat_dsc" ColumnName="cat_dsc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dtb_master">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.dtb_master">
+        <MappingFragment StoreEntitySet="dtb_master">
+          <ScalarProperty Name="dtb_id" ColumnName="dtb_id" />
+          <ScalarProperty Name="dtb_status" ColumnName="dtb_status" />
+          <ScalarProperty Name="dtb_descr" ColumnName="dtb_descr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pay_master">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.pay_master">
+        <MappingFragment StoreEntitySet="pay_master">
+          <ScalarProperty Name="pay_id" ColumnName="pay_id" />
+          <ScalarProperty Name="pay_dsc" ColumnName="pay_dsc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="prd_master">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.prd_master">
+        <MappingFragment StoreEntitySet="prd_master">
+          <ScalarProperty Name="prd_id" ColumnName="prd_id" />
+          <ScalarProperty Name="prd_shdsc" ColumnName="prd_shdsc" />
+          <ScalarProperty Name="prd_lgdsc" ColumnName="prd_lgdsc" />
+          <ScalarProperty Name="prd_price" ColumnName="prd_price" />
+          <ScalarProperty Name="cat_id" ColumnName="cat_id" />
+          <ScalarProperty Name="sts_id" ColumnName="sts_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rol_master">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.rol_master">
+        <MappingFragment StoreEntitySet="rol_master">
+          <ScalarProperty Name="rol_id" ColumnName="rol_id" />
+          <ScalarProperty Name="rol_dsc" ColumnName="rol_dsc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="srv_master">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.srv_master">
+        <MappingFragment StoreEntitySet="srv_master">
+          <ScalarProperty Name="srv_id" ColumnName="srv_id" />
+          <ScalarProperty Name="srv_date" ColumnName="srv_date" />
+          <ScalarProperty Name="srv_total" ColumnName="srv_total" />
+          <ScalarProperty Name="dtb_id" ColumnName="dtb_id" />
+          <ScalarProperty Name="pay_id" ColumnName="pay_id" />
+          <ScalarProperty Name="sts_id" ColumnName="sts_id" />
+          <ScalarProperty Name="usr_id" ColumnName="usr_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sts_master">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.sts_master">
+        <MappingFragment StoreEntitySet="sts_master">
+          <ScalarProperty Name="sts_id" ColumnName="sts_id" />
+          <ScalarProperty Name="sts_dsc" ColumnName="sts_dsc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usr_master">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.usr_master">
+        <MappingFragment StoreEntitySet="usr_master">
+          <ScalarProperty Name="usr_id" ColumnName="usr_id" />
+          <ScalarProperty Name="usr_password" ColumnName="usr_password" />
+          <ScalarProperty Name="sts_id" ColumnName="sts_id" />
+          <ScalarProperty Name="rol_id" ColumnName="rol_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="srv_detail">
+      <EntityTypeMapping TypeName="prj_marnylopezModel.srv_detail">
+        <MappingFragment StoreEntitySet="srv_detail">
+          <ScalarProperty Name="srv_id" ColumnName="srv_id" />
+          <ScalarProperty Name="srv_qty" ColumnName="srv_qty" />
+          <ScalarProperty Name="srv_notes" ColumnName="srv_notes" />
+          <ScalarProperty Name="prd_id" ColumnName="prd_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

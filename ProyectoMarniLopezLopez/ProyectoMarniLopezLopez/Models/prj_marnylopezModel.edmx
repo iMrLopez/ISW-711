@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="prj_marnylopezModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="cat_master">
+          <Key>
+            <PropertyRef Name="cat_id" />
+          </Key>
+          <Property Name="cat_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cat_dsc" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dtb_master">
+          <Key>
+            <PropertyRef Name="dtb_id" />
+          </Key>
+          <Property Name="dtb_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="dtb_status" Type="bit" Nullable="false" />
+          <Property Name="dtb_descr" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="pay_master">
+          <Key>
+            <PropertyRef Name="pay_id" />
+          </Key>
+          <Property Name="pay_id" Type="int" Nullable="false" />
+          <Property Name="pay_dsc" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="prd_master">
+          <Key>
+            <PropertyRef Name="prd_id" />
+          </Key>
+          <Property Name="prd_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="prd_shdsc" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="prd_lgdsc" Type="varchar" MaxLength="50" />
+          <Property Name="prd_price" Type="money" Nullable="false" />
+          <Property Name="cat_id" Type="int" Nullable="false" />
+          <Property Name="sts_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="rol_master">
+          <Key>
+            <PropertyRef Name="rol_id" />
+          </Key>
+          <Property Name="rol_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="rol_dsc" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="srv_detail">
+          <Key>
+            <PropertyRef Name="srv_id" />
+            <PropertyRef Name="srv_qty" />
+            <PropertyRef Name="prd_id" />
+          </Key>
+          <Property Name="srv_id" Type="int" Nullable="false" />
+          <Property Name="srv_qty" Type="int" Nullable="false" />
+          <Property Name="srv_notes" Type="varchar" MaxLength="50" />
+          <Property Name="prd_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="srv_master">
+          <Key>
+            <PropertyRef Name="srv_id" />
+          </Key>
+          <Property Name="srv_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="srv_date" Type="date" Nullable="false" />
+          <Property Name="srv_total" Type="money" Nullable="false" />
+          <Property Name="dtb_id" Type="int" Nullable="false" />
+          <Property Name="pay_id" Type="int" />
+          <Property Name="sts_id" Type="int" Nullable="false" />
+          <Property Name="usr_id" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sts_master">
+          <Key>
+            <PropertyRef Name="sts_id" />
+          </Key>
+          <Property Name="sts_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sts_dsc" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="usr_master">
+          <Key>
+            <PropertyRef Name="usr_id" />
+          </Key>
+          <Property Name="usr_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="usr_password" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="sts_id" Type="int" Nullable="false" />
+          <Property Name="rol_id" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_prd_master_cat_master">
+          <End Role="cat_master" Type="Self.cat_master" Multiplicity="1" />
+          <End Role="prd_master" Type="Self.prd_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cat_master">
+              <PropertyRef Name="cat_id" />
+            </Principal>
+            <Dependent Role="prd_master">
+              <PropertyRef Name="cat_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_prd_master_sts_master">
+          <End Role="sts_master" Type="Self.sts_master" Multiplicity="1" />
+          <End Role="prd_master" Type="Self.prd_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sts_master">
+              <PropertyRef Name="sts_id" />
+            </Principal>
+            <Dependent Role="prd_master">
+              <PropertyRef Name="sts_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_detail_prd_master">
+          <End Role="prd_master" Type="Self.prd_master" Multiplicity="1" />
+          <End Role="srv_detail" Type="Self.srv_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="prd_master">
+              <PropertyRef Name="prd_id" />
+            </Principal>
+            <Dependent Role="srv_detail">
+              <PropertyRef Name="prd_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_detail_srv_master">
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="1" />
+          <End Role="srv_detail" Type="Self.srv_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="srv_master">
+              <PropertyRef Name="srv_id" />
+            </Principal>
+            <Dependent Role="srv_detail">
+              <PropertyRef Name="srv_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_master_dtb_master">
+          <End Role="dtb_master" Type="Self.dtb_master" Multiplicity="1" />
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dtb_master">
+              <PropertyRef Name="dtb_id" />
+            </Principal>
+            <Dependent Role="srv_master">
+              <PropertyRef Name="dtb_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_master_pay_master">
+          <End Role="pay_master" Type="Self.pay_master" Multiplicity="0..1" />
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pay_master">
+              <PropertyRef Name="pay_id" />
+            </Principal>
+            <Dependent Role="srv_master">
+              <PropertyRef Name="pay_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_master_sts_master">
+          <End Role="sts_master" Type="Self.sts_master" Multiplicity="1" />
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sts_master">
+              <PropertyRef Name="sts_id" />
+            </Principal>
+            <Dependent Role="srv_master">
+              <PropertyRef Name="sts_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_master_usr_master">
+          <End Role="usr_master" Type="Self.usr_master" Multiplicity="1" />
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usr_master">
+              <PropertyRef Name="usr_id" />
+            </Principal>
+            <Dependent Role="srv_master">
+              <PropertyRef Name="usr_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_usr_master_rol_master">
+          <End Role="rol_master" Type="Self.rol_master" Multiplicity="1" />
+          <End Role="usr_master" Type="Self.usr_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="rol_master">
+              <PropertyRef Name="rol_id" />
+            </Principal>
+            <Dependent Role="usr_master">
+              <PropertyRef Name="rol_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_usr_master_sts_master">
+          <End Role="sts_master" Type="Self.sts_master" Multiplicity="1" />
+          <End Role="usr_master" Type="Self.usr_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sts_master">
+              <PropertyRef Name="sts_id" />
+            </Principal>
+            <Dependent Role="usr_master">
+              <PropertyRef Name="sts_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="prj_marnylopezModelStoreContainer">
+          <EntitySet Name="cat_master" EntityType="Self.cat_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dtb_master" EntityType="Self.dtb_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="pay_master" EntityType="Self.pay_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="prd_master" EntityType="Self.prd_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="rol_master" EntityType="Self.rol_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="srv_master" EntityType="Self.srv_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sts_master" EntityType="Self.sts_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="usr_master" EntityType="Self.usr_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="srv_detail" EntityType="Self.srv_detail" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [srv_detail].[srv_id] AS [srv_id], 
+    [srv_detail].[srv_qty] AS [srv_qty], 
+    [srv_detail].[srv_notes] AS [srv_notes], 
+    [srv_detail].[prd_id] AS [prd_id]
+    FROM [dbo].[srv_detail] AS [srv_detail]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_prd_master_cat_master" Association="Self.FK_prd_master_cat_master">
+            <End Role="cat_master" EntitySet="cat_master" />
+            <End Role="prd_master" EntitySet="prd_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_prd_master_sts_master" Association="Self.FK_prd_master_sts_master">
+            <End Role="sts_master" EntitySet="sts_master" />
+            <End Role="prd_master" EntitySet="prd_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_detail_prd_master" Association="Self.FK_srv_detail_prd_master">
+            <End Role="prd_master" EntitySet="prd_master" />
+            <End Role="srv_detail" EntitySet="srv_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_detail_srv_master" Association="Self.FK_srv_detail_srv_master">
+            <End Role="srv_master" EntitySet="srv_master" />
+            <End Role="srv_detail" EntitySet="srv_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_master_dtb_master" Association="Self.FK_srv_master_dtb_master">
+            <End Role="dtb_master" EntitySet="dtb_master" />
+            <End Role="srv_master" EntitySet="srv_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_master_pay_master" Association="Self.FK_srv_master_pay_master">
+            <End Role="pay_master" EntitySet="pay_master" />
+            <End Role="srv_master" EntitySet="srv_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_master_sts_master" Association="Self.FK_srv_master_sts_master">
+            <End Role="sts_master" EntitySet="sts_master" />
+            <End Role="srv_master" EntitySet="srv_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_master_usr_master" Association="Self.FK_srv_master_usr_master">
+            <End Role="usr_master" EntitySet="usr_master" />
+            <End Role="srv_master" EntitySet="srv_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_usr_master_rol_master" Association="Self.FK_usr_master_rol_master">
+            <End Role="rol_master" EntitySet="rol_master" />
+            <End Role="usr_master" EntitySet="usr_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_usr_master_sts_master" Association="Self.FK_usr_master_sts_master">
+            <End Role="sts_master" EntitySet="sts_master" />
+            <End Role="usr_master" EntitySet="usr_master" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="prj_marnylopezModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="cat_master">
+          <Key>
+            <PropertyRef Name="cat_id" />
+          </Key>
+          <Property Name="cat_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cat_dsc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="prd_master" Relationship="Self.FK_prd_master_cat_master" FromRole="cat_master" ToRole="prd_master" />
+        </EntityType>
+        <EntityType Name="dtb_master">
+          <Key>
+            <PropertyRef Name="dtb_id" />
+          </Key>
+          <Property Name="dtb_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dtb_status" Type="Boolean" Nullable="false" />
+          <Property Name="dtb_descr" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_master_dtb_master" FromRole="dtb_master" ToRole="srv_master" />
+        </EntityType>
+        <EntityType Name="pay_master">
+          <Key>
+            <PropertyRef Name="pay_id" />
+          </Key>
+          <Property Name="pay_id" Type="Int32" Nullable="false" />
+          <Property Name="pay_dsc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_master_pay_master" FromRole="pay_master" ToRole="srv_master" />
+        </EntityType>
+        <EntityType Name="prd_master">
+          <Key>
+            <PropertyRef Name="prd_id" />
+          </Key>
+          <Property Name="prd_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="prd_shdsc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="prd_lgdsc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="prd_price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="cat_id" Type="Int32" Nullable="false" />
+          <Property Name="sts_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="cat_master" Relationship="Self.FK_prd_master_cat_master" FromRole="prd_master" ToRole="cat_master" />
+          <NavigationProperty Name="sts_master" Relationship="Self.FK_prd_master_sts_master" FromRole="prd_master" ToRole="sts_master" />
+          <NavigationProperty Name="srv_detail" Relationship="Self.FK_srv_detail_prd_master" FromRole="prd_master" ToRole="srv_detail" />
+        </EntityType>
+        <EntityType Name="rol_master">
+          <Key>
+            <PropertyRef Name="rol_id" />
+          </Key>
+          <Property Name="rol_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="rol_dsc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="usr_master" Relationship="Self.FK_usr_master_rol_master" FromRole="rol_master" ToRole="usr_master" />
+        </EntityType>
+        <EntityType Name="srv_master">
+          <Key>
+            <PropertyRef Name="srv_id" />
+          </Key>
+          <Property Name="srv_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="srv_date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="srv_total" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="dtb_id" Type="Int32" Nullable="false" />
+          <Property Name="pay_id" Type="Int32" />
+          <Property Name="sts_id" Type="Int32" Nullable="false" />
+          <Property Name="usr_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="dtb_master" Relationship="Self.FK_srv_master_dtb_master" FromRole="srv_master" ToRole="dtb_master" />
+          <NavigationProperty Name="pay_master" Relationship="Self.FK_srv_master_pay_master" FromRole="srv_master" ToRole="pay_master" />
+          <NavigationProperty Name="srv_detail" Relationship="Self.FK_srv_detail_srv_master" FromRole="srv_master" ToRole="srv_detail" />
+          <NavigationProperty Name="sts_master" Relationship="Self.FK_srv_master_sts_master" FromRole="srv_master" ToRole="sts_master" />
+          <NavigationProperty Name="usr_master" Relationship="Self.FK_srv_master_usr_master" FromRole="srv_master" ToRole="usr_master" />
+        </EntityType>
+        <EntityType Name="sts_master">
+          <Key>
+            <PropertyRef Name="sts_id" />
+          </Key>
+          <Property Name="sts_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sts_dsc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="prd_master" Relationship="Self.FK_prd_master_sts_master" FromRole="sts_master" ToRole="prd_master" />
+          <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_master_sts_master" FromRole="sts_master" ToRole="srv_master" />
+          <NavigationProperty Name="usr_master" Relationship="Self.FK_usr_master_sts_master" FromRole="sts_master" ToRole="usr_master" />
+        </EntityType>
+        <EntityType Name="usr_master">
+          <Key>
+            <PropertyRef Name="usr_id" />
+          </Key>
+          <Property Name="usr_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="usr_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="sts_id" Type="Int32" Nullable="false" />
+          <Property Name="rol_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="rol_master" Relationship="Self.FK_usr_master_rol_master" FromRole="usr_master" ToRole="rol_master" />
+          <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_master_usr_master" FromRole="usr_master" ToRole="srv_master" />
+          <NavigationProperty Name="sts_master" Relationship="Self.FK_usr_master_sts_master" FromRole="usr_master" ToRole="sts_master" />
+        </EntityType>
+        <EntityType Name="srv_detail">
+          <Key>
+            <PropertyRef Name="srv_id" />
+            <PropertyRef Name="srv_qty" />
+            <PropertyRef Name="prd_id" />
+          </Key>
+          <Property Name="srv_id" Type="Int32" Nullable="false" />
+          <Property Name="srv_qty" Type="Int32" Nullable="false" />
+          <Property Name="srv_notes" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="prd_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="prd_master" Relationship="Self.FK_srv_detail_prd_master" FromRole="srv_detail" ToRole="prd_master" />
+          <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_detail_srv_master" FromRole="srv_detail" ToRole="srv_master" />
+        </EntityType>
+        <Association Name="FK_prd_master_cat_master">
+          <End Role="cat_master" Type="Self.cat_master" Multiplicity="1" />
+          <End Role="prd_master" Type="Self.prd_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cat_master">
+              <PropertyRef Name="cat_id" />
+            </Principal>
+            <Dependent Role="prd_master">
+              <PropertyRef Name="cat_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_master_dtb_master">
+          <End Role="dtb_master" Type="Self.dtb_master" Multiplicity="1" />
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dtb_master">
+              <PropertyRef Name="dtb_id" />
+            </Principal>
+            <Dependent Role="srv_master">
+              <PropertyRef Name="dtb_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_master_pay_master">
+          <End Role="pay_master" Type="Self.pay_master" Multiplicity="0..1" />
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pay_master">
+              <PropertyRef Name="pay_id" />
+            </Principal>
+            <Dependent Role="srv_master">
+              <PropertyRef Name="pay_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_prd_master_sts_master">
+          <End Role="sts_master" Type="Self.sts_master" Multiplicity="1" />
+          <End Role="prd_master" Type="Self.prd_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sts_master">
+              <PropertyRef Name="sts_id" />
+            </Principal>
+            <Dependent Role="prd_master">
+              <PropertyRef Name="sts_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_detail_prd_master">
+          <End Role="prd_master" Type="Self.prd_master" Multiplicity="1" />
+          <End Role="srv_detail" Type="Self.srv_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="prd_master">
+              <PropertyRef Name="prd_id" />
+            </Principal>
+            <Dependent Role="srv_detail">
+              <PropertyRef Name="prd_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_usr_master_rol_master">
+          <End Role="rol_master" Type="Self.rol_master" Multiplicity="1" />
+          <End Role="usr_master" Type="Self.usr_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="rol_master">
+              <PropertyRef Name="rol_id" />
+            </Principal>
+            <Dependent Role="usr_master">
+              <PropertyRef Name="rol_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_detail_srv_master">
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="1" />
+          <End Role="srv_detail" Type="Self.srv_detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="srv_master">
+              <PropertyRef Name="srv_id" />
+            </Principal>
+            <Dependent Role="srv_detail">
+              <PropertyRef Name="srv_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_master_sts_master">
+          <End Role="sts_master" Type="Self.sts_master" Multiplicity="1" />
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sts_master">
+              <PropertyRef Name="sts_id" />
+            </Principal>
+            <Dependent Role="srv_master">
+              <PropertyRef Name="sts_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_srv_master_usr_master">
+          <End Role="usr_master" Type="Self.usr_master" Multiplicity="1" />
+          <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="usr_master">
+              <PropertyRef Name="usr_id" />
+            </Principal>
+            <Dependent Role="srv_master">
+              <PropertyRef Name="usr_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_usr_master_sts_master">
+          <End Role="sts_master" Type="Self.sts_master" Multiplicity="1" />
+          <End Role="usr_master" Type="Self.usr_master" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sts_master">
+              <PropertyRef Name="sts_id" />
+            </Principal>
+            <Dependent Role="usr_master">
+              <PropertyRef Name="sts_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="prj_marnylopezEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="cat_master" EntityType="Self.cat_master" />
+          <EntitySet Name="dtb_master" EntityType="Self.dtb_master" />
+          <EntitySet Name="pay_master" EntityType="Self.pay_master" />
+          <EntitySet Name="prd_master" EntityType="Self.prd_master" />
+          <EntitySet Name="rol_master" EntityType="Self.rol_master" />
+          <EntitySet Name="srv_master" EntityType="Self.srv_master" />
+          <EntitySet Name="sts_master" EntityType="Self.sts_master" />
+          <EntitySet Name="usr_master" EntityType="Self.usr_master" />
+          <EntitySet Name="srv_detail" EntityType="Self.srv_detail" />
+          <AssociationSet Name="FK_prd_master_cat_master" Association="Self.FK_prd_master_cat_master">
+            <End Role="cat_master" EntitySet="cat_master" />
+            <End Role="prd_master" EntitySet="prd_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_master_dtb_master" Association="Self.FK_srv_master_dtb_master">
+            <End Role="dtb_master" EntitySet="dtb_master" />
+            <End Role="srv_master" EntitySet="srv_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_master_pay_master" Association="Self.FK_srv_master_pay_master">
+            <End Role="pay_master" EntitySet="pay_master" />
+            <End Role="srv_master" EntitySet="srv_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_prd_master_sts_master" Association="Self.FK_prd_master_sts_master">
+            <End Role="sts_master" EntitySet="sts_master" />
+            <End Role="prd_master" EntitySet="prd_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_detail_prd_master" Association="Self.FK_srv_detail_prd_master">
+            <End Role="prd_master" EntitySet="prd_master" />
+            <End Role="srv_detail" EntitySet="srv_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_usr_master_rol_master" Association="Self.FK_usr_master_rol_master">
+            <End Role="rol_master" EntitySet="rol_master" />
+            <End Role="usr_master" EntitySet="usr_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_detail_srv_master" Association="Self.FK_srv_detail_srv_master">
+            <End Role="srv_master" EntitySet="srv_master" />
+            <End Role="srv_detail" EntitySet="srv_detail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_master_sts_master" Association="Self.FK_srv_master_sts_master">
+            <End Role="sts_master" EntitySet="sts_master" />
+            <End Role="srv_master" EntitySet="srv_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_srv_master_usr_master" Association="Self.FK_srv_master_usr_master">
+            <End Role="usr_master" EntitySet="usr_master" />
+            <End Role="srv_master" EntitySet="srv_master" />
+          </AssociationSet>
+          <AssociationSet Name="FK_usr_master_sts_master" Association="Self.FK_usr_master_sts_master">
+            <End Role="sts_master" EntitySet="sts_master" />
+            <End Role="usr_master" EntitySet="usr_master" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="prj_marnylopezModelStoreContainer" CdmEntityContainer="prj_marnylopezEntities1">
+          <EntitySetMapping Name="cat_master">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.cat_master">
+              <MappingFragment StoreEntitySet="cat_master">
+                <ScalarProperty Name="cat_id" ColumnName="cat_id" />
+                <ScalarProperty Name="cat_dsc" ColumnName="cat_dsc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dtb_master">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.dtb_master">
+              <MappingFragment StoreEntitySet="dtb_master">
+                <ScalarProperty Name="dtb_id" ColumnName="dtb_id" />
+                <ScalarProperty Name="dtb_status" ColumnName="dtb_status" />
+                <ScalarProperty Name="dtb_descr" ColumnName="dtb_descr" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pay_master">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.pay_master">
+              <MappingFragment StoreEntitySet="pay_master">
+                <ScalarProperty Name="pay_id" ColumnName="pay_id" />
+                <ScalarProperty Name="pay_dsc" ColumnName="pay_dsc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="prd_master">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.prd_master">
+              <MappingFragment StoreEntitySet="prd_master">
+                <ScalarProperty Name="prd_id" ColumnName="prd_id" />
+                <ScalarProperty Name="prd_shdsc" ColumnName="prd_shdsc" />
+                <ScalarProperty Name="prd_lgdsc" ColumnName="prd_lgdsc" />
+                <ScalarProperty Name="prd_price" ColumnName="prd_price" />
+                <ScalarProperty Name="cat_id" ColumnName="cat_id" />
+                <ScalarProperty Name="sts_id" ColumnName="sts_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="rol_master">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.rol_master">
+              <MappingFragment StoreEntitySet="rol_master">
+                <ScalarProperty Name="rol_id" ColumnName="rol_id" />
+                <ScalarProperty Name="rol_dsc" ColumnName="rol_dsc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="srv_master">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.srv_master">
+              <MappingFragment StoreEntitySet="srv_master">
+                <ScalarProperty Name="srv_id" ColumnName="srv_id" />
+                <ScalarProperty Name="srv_date" ColumnName="srv_date" />
+                <ScalarProperty Name="srv_total" ColumnName="srv_total" />
+                <ScalarProperty Name="dtb_id" ColumnName="dtb_id" />
+                <ScalarProperty Name="pay_id" ColumnName="pay_id" />
+                <ScalarProperty Name="sts_id" ColumnName="sts_id" />
+                <ScalarProperty Name="usr_id" ColumnName="usr_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sts_master">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.sts_master">
+              <MappingFragment StoreEntitySet="sts_master">
+                <ScalarProperty Name="sts_id" ColumnName="sts_id" />
+                <ScalarProperty Name="sts_dsc" ColumnName="sts_dsc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usr_master">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.usr_master">
+              <MappingFragment StoreEntitySet="usr_master">
+                <ScalarProperty Name="usr_id" ColumnName="usr_id" />
+                <ScalarProperty Name="usr_password" ColumnName="usr_password" />
+                <ScalarProperty Name="sts_id" ColumnName="sts_id" />
+                <ScalarProperty Name="rol_id" ColumnName="rol_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="srv_detail">
+            <EntityTypeMapping TypeName="prj_marnylopezModel.srv_detail">
+              <MappingFragment StoreEntitySet="srv_detail">
+                <ScalarProperty Name="srv_id" ColumnName="srv_id" />
+                <ScalarProperty Name="srv_qty" ColumnName="srv_qty" />
+                <ScalarProperty Name="srv_notes" ColumnName="srv_notes" />
+                <ScalarProperty Name="prd_id" ColumnName="prd_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

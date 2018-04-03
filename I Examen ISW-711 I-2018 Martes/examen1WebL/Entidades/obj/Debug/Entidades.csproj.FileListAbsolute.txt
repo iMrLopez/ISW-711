@@ -1,0 +1,16 @@
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Entidades\bin\Debug\Entidades.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Entidades\bin\Debug\Entidades.pdb
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Entidades\obj\Debug\Entidades.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Entidades\obj\Debug\Entidades.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Entidades\bin\Debug\Entidades.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Entidades\bin\Debug\Entidades.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Entidades\obj\Debug\Entidades.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Entidades\obj\Debug\Entidades.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Entidades\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Entidades\bin\Debug\ServiceStack.Interfaces.xml

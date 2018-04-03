@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MLopez IT Solutions</title>
+    @Styles.Render("~/Content/css")
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        @{Html.RenderPartial("_sidebar", null); }
+
+        <div class="main-panel">
+            @{Html.RenderPartial("_topnavbar", null); }
+            <div class="content">
+                @RenderBody()
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    @{Html.RenderPartial("_botnavbar", null); }
+                    <p class="copyright pull-right">
+                        &copy; @DateTime.Now.Year
+                        <a href="http://www.mlopezitsolutions.com"> MLopez IT Solutions </a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/corejs")
+    <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+    @Scripts.Render("~/bundles/addljs")
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // Javascript method's body can be found in assets/js/demos.js
+            demo.initDashboardPageCharts();
+
+            demo.initVectorMap();
+        });
+    </script>
+</body>
+</html>

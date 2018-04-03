@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ProyectoMarniLopezLopez.Models.usr_master>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.usr_password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rol_master.rol_dsc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sts_master.sts_dsc)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.usr_password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rol_master.rol_dsc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sts_master.sts_dsc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.usr_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.usr_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.usr_id })
+        </td>
+    </tr>
+}
+
+</table>

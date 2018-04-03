@@ -1,0 +1,78 @@
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\csc.exe
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\System.Collections.Immutable.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\vbc.exe
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\VBCSCompiler.exe
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\roslyn\VBCSCompiler.exe.config
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\examen1WebL.dll.config
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\examen1WebL.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\examen1WebL.pdb
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\obj\Debug\examen1WebL.csprojResolveAssemblyReference.cache
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\obj\Debug\examen1WebL.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\examen1WebL\obj\Debug\examen1WebL.pdb
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\csc.exe
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\vbc.exe
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\examen1WebL.dll.config
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\examen1WebL.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\examen1WebL.pdb
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\obj\Debug\examen1WebL.csprojResolveAssemblyReference.cache
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\obj\Debug\examen1WebL.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\examen1WebL\obj\Debug\examen1WebL.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\csc.exe
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\vbc.exe
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\VBCSCompiler.exe
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\examen1WebL.dll.config
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\examen1WebL.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\examen1WebL.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\obj\Debug\examen1WebL.csprojResolveAssemblyReference.cache
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\obj\Debug\examen1WebL.csproj.CoreCompileInputs.cache
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\obj\Debug\examen1WebL.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\obj\Debug\examen1WebL.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\Entidades.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\LogicaNegocio.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\Datos.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.OrmLite.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.Common.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.Interfaces.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.Text.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\Entidades.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\LogicaNegocio.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\Datos.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\Datos.dll.config
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.OrmLite.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.OrmLite.SqlServer.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.Common.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.Interfaces.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\examen1WebL\bin\ServiceStack.Text.xml

@@ -1,0 +1,31 @@
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Datos\bin\Debug\Datos.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Datos\bin\Debug\Datos.pdb
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Datos\obj\Debug\Datos.dll
+c:\users\nathali_paniagua\documents\visual studio 2015\Projects\examen1WebL\Datos\obj\Debug\Datos.pdb
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Datos\bin\Debug\Datos.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Datos\bin\Debug\Datos.pdb
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Datos\bin\Debug\Entidades.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Datos\bin\Debug\Entidades.pdb
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Datos\obj\Debug\Datos.dll
+C:\Users\Nathali_Paniagua\Google Drive\2018\Programación en Ambiente WEB II\Clase 7 Examen\Lunes\examen1WebL\Datos\obj\Debug\Datos.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\Datos.dll.config
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\Datos.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\Datos.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\Entidades.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.Common.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.Text.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\Entidades.pdb
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.Common.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.OrmLite.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.OrmLite.SqlServer.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\bin\Debug\ServiceStack.Text.xml
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\obj\Debug\Datos.dll
+C:\Users\SA\Desktop\I Examen ISW-711 I-2018 Martes\examen1WebL\Datos\obj\Debug\Datos.pdb
