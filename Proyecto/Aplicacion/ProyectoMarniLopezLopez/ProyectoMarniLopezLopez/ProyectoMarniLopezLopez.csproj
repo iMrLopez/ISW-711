@@ -152,6 +152,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IActionResult.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -315,7 +316,7 @@
     <Content Include="Views\Table\Details.cshtml" />
     <Content Include="Views\Table\Edit.cshtml" />
     <Content Include="Views\Table\Index.cshtml" />
-    <Content Include="Views\Salon\AbrirMesa.cshtml" />
+    <Content Include="Views\Salon\OpenDtb.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

@@ -20,7 +20,7 @@
                                 @{
                                     if (item.dtb_svc_sts_id == 1)
                                     {
-                                        <a class="btn btn-primary" href="">
+                                        <a class="btn btn-primary" href="@Url.Action("OpenDtb", "Salon",new { pmesa = item.dtb_id })">
                                             <span class="btn-label">
                                                 <i class="material-icons">fiber_new</i>
                                             </span>

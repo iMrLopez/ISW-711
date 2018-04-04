@@ -1,0 +1,46 @@
+﻿@using ProyectoMarniLopezLopez.Models
+
+
+@{
+    /**/
+
+    ViewBag.Title = "Abrir Mesa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+    var prod = (int)ViewData["pmesa"];
+    var usrs = (List<usr_master>)ViewData["plistaUsuarios"];
+
+}
+
+
+<div class="col-md-6 col-md-offset-4">
+    <div class="col-lg-6">
+        <div class="card card-pricing card-raised">
+            <div class="content">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <h6 class="category">Realizar apertura de mesa</h6>
+                    <div class="icon">
+                        <i class="material-icons btn btn-primary">event_seat</i>
+                    </div>
+                    <h3 class="card-title">Mesa numero: @prod.ToString()</h3>
+                    <p class="card-description">
+                        <hr />
+                            <h6>Selecciona un mesero de la lista</h6>
+                        <select class="form-control" name="pMeseroApertura">
+                            @foreach (var item in usrs)
+                            {
+                                <option value="@item.usr_id">@item.usr_id</option>
+                            }
+                        </select>
+                    </p>
+                    <hr />
+                    <input type="hidden" value="@prod.ToString()" name="pMesaAAbrir"/>
+                    <button type="submit" class="btn btn-rose btn-round">Realizar Apertura de mesa</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
