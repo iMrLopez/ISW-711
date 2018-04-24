@@ -1,0 +1,202 @@
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ApplicationInsights.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\csc.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\System.Collections.Immutable.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\vbc.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\VBCSCompiler.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\VBCSCompiler.exe.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Examen2WilberthMolina.dll.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Examen2WilberthMolina.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Examen2WilberthMolina.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Antlr3.Runtime.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\EntityFramework.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\EntityFramework.SqlServer.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.DependencyCollector.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.Web.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.WindowsServer.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.ApplicationInsights.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Google.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Newtonsoft.Json.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Owin.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Helpers.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Mvc.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Optimization.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Razor.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\WebGrease.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.DependencyCollector.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.Web.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.WindowsServer.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.ApplicationInsights.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Helpers.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Mvc.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Optimization.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Razor.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Antlr3.Runtime.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Newtonsoft.Json.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\EntityFramework.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\EntityFramework.SqlServer.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Google.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\obj\Debug\Examen2WilberthMolina.csprojResolveAssemblyReference.cache
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\obj\Debug\Examen2WilberthMolina.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\obj\Debug\Examen2WilberthMolina.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\AutoMapper.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\DATOS.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\DATOS.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\AutoMapper.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\DAL.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.OrmLite.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.OrmLite.SqlServer.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Common.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Interfaces.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Text.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\DAL.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.OrmLite.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.OrmLite.SqlServer.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Common.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Interfaces.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Text.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ApplicationInsights.config
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\csc.exe
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\vbc.exe
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\VBCSCompiler.exe
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Examen2WilberthMolina.dll.config
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Examen2WilberthMolina.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Examen2WilberthMolina.pdb
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Antlr3.Runtime.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\AutoMapper.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\DAL.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\DATOS.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\EntityFramework.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\EntityFramework.SqlServer.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.Web.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Newtonsoft.Json.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Owin.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Helpers.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Mvc.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Optimization.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Razor.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.Razor.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\WebGrease.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.OrmLite.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Common.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Interfaces.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Text.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\DAL.pdb
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\DAL.dll.config
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\DATOS.pdb
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\AutoMapper.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.Web.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Helpers.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Mvc.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Optimization.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.Razor.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\System.Web.WebPages.Razor.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Antlr3.Runtime.pdb
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Newtonsoft.Json.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\EntityFramework.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\EntityFramework.SqlServer.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.OrmLite.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.OrmLite.SqlServer.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Common.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Interfaces.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\bin\ServiceStack.Text.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\obj\Debug\Examen2WilberthMolina.csprojResolveAssemblyReference.cache
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\obj\Debug\Examen2WilberthMolina.csproj.CoreCompileInputs.cache
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\obj\Debug\Examen2WilberthMolina.csproj.CopyComplete
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\obj\Debug\Examen2WilberthMolina.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\Examen2WilberthMolina\obj\Debug\Examen2WilberthMolina.pdb

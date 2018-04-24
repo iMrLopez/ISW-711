@@ -32,7 +32,10 @@
                         <select class="form-control" name="pMeseroApertura">
                             @foreach (var item in usrs)
                             {
-                                <option value="@item.usr_id">@item.usr_id</option>
+                                if (item.rol_id == 2)
+                                {
+                                    <option value="@item.usr_id">@item.usr_id</option>
+                                }
                             }
                         </select>
                     </p>

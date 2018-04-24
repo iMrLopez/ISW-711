@@ -1,0 +1,33 @@
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\DAL.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\DAL.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\obj\Debug\DAL.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\obj\Debug\DAL.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\DAL.dll.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\DATOS.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Common.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Interfaces.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.OrmLite.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Text.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\DATOS.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Common.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Interfaces.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.OrmLite.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Text.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\DAL.dll.config
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\DAL.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\DAL.pdb
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\DATOS.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\DATOS.pdb
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Common.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.OrmLite.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.OrmLite.SqlServer.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\bin\Debug\ServiceStack.Text.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\obj\Debug\DAL.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\DAL\obj\Debug\DAL.pdb

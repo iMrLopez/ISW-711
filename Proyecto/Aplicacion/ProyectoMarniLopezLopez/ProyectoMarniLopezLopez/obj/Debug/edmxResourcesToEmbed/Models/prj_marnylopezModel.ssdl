@@ -15,6 +15,7 @@
     <Property Name="dtb_status" Type="bit" Nullable="false" />
     <Property Name="dtb_descr" Type="varchar" MaxLength="50" />
     <Property Name="dtb_svc_sts_id" Type="int" Nullable="false" />
+    <Property Name="dtb_act_svc_id" Type="int" />
   </EntityType>
   <EntityType Name="dtb_svc_sts">
     <Key>
@@ -48,14 +49,11 @@
     <Property Name="rol_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="rol_dsc" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="srv_detail">
     <Key>
-      <PropertyRef Name="srv_id" />
-      <PropertyRef Name="srv_qty" />
-      <PropertyRef Name="prd_id" />
+      <PropertyRef Name="srv_dtl_id" />
     </Key>
+    <Property Name="srv_dtl_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="srv_id" Type="int" Nullable="false" />
     <Property Name="srv_qty" Type="int" Nullable="false" />
     <Property Name="srv_notes" Type="varchar" MaxLength="50" />
@@ -174,11 +172,11 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_srv_master_sts_master">
-    <End Role="sts_master" Type="Self.sts_master" Multiplicity="1" />
+    <End Role="dtb_svc_sts" Type="Self.dtb_svc_sts" Multiplicity="1" />
     <End Role="srv_master" Type="Self.srv_master" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="sts_master">
-        <PropertyRef Name="sts_id" />
+      <Principal Role="dtb_svc_sts">
+        <PropertyRef Name="dtb_svc_sts_id" />
       </Principal>
       <Dependent Role="srv_master">
         <PropertyRef Name="sts_id" />
@@ -228,17 +226,10 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
     <EntitySet Name="pay_master" EntityType="Self.pay_master" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="prd_master" EntityType="Self.prd_master" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="rol_master" EntityType="Self.rol_master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="srv_detail" EntityType="Self.srv_detail" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="srv_master" EntityType="Self.srv_master" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sts_master" EntityType="Self.sts_master" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="usr_master" EntityType="Self.usr_master" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="srv_detail" EntityType="Self.srv_detail" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [srv_detail].[srv_id] AS [srv_id], 
-    [srv_detail].[srv_qty] AS [srv_qty], 
-    [srv_detail].[srv_notes] AS [srv_notes], 
-    [srv_detail].[prd_id] AS [prd_id]
-    FROM [dbo].[srv_detail] AS [srv_detail]</DefiningQuery>
-    </EntitySet>
     <AssociationSet Name="FK_dtb_master_dtb_svc_sts" Association="Self.FK_dtb_master_dtb_svc_sts">
       <End Role="dtb_svc_sts" EntitySet="dtb_svc_sts" />
       <End Role="dtb_master" EntitySet="dtb_master" />
@@ -268,7 +259,7 @@ warning 6002: The table/view 'prj_marnylopez.dbo.srv_detail' does not have a pri
       <End Role="srv_master" EntitySet="srv_master" />
     </AssociationSet>
     <AssociationSet Name="FK_srv_master_sts_master" Association="Self.FK_srv_master_sts_master">
-      <End Role="sts_master" EntitySet="sts_master" />
+      <End Role="dtb_svc_sts" EntitySet="dtb_svc_sts" />
       <End Role="srv_master" EntitySet="srv_master" />
     </AssociationSet>
     <AssociationSet Name="FK_srv_master_usr_master" Association="Self.FK_srv_master_usr_master">

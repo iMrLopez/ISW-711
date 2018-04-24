@@ -18,6 +18,7 @@ namespace ProyectoMarniLopezLopez.Models
         public dtb_svc_sts()
         {
             this.dtb_master = new HashSet<dtb_master>();
+            this.srv_master = new HashSet<srv_master>();
         }
     
         public int dtb_svc_sts_id { get; set; }
@@ -25,5 +26,7 @@ namespace ProyectoMarniLopezLopez.Models
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<dtb_master> dtb_master { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<srv_master> srv_master { get; set; }
     }
 }

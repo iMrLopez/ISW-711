@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="clase12Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="desayuno">
+    <Key>
+      <PropertyRef Name="idDesayuno" />
+    </Key>
+    <Property Name="idDesayuno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="100" />
+    <Property Name="descripcion" Type="text" />
+    <Property Name="precio8" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="precio9" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ordenDesayuno">
+    <Key>
+      <PropertyRef Name="idOrdenDesayuno" />
+    </Key>
+    <Property Name="idOrdenDesayuno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="100" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="idDesayuno" Type="int" />
+    <Property Name="tamano" Type="int" />
+    <Property Name="total" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="cantidad" Type="int" />
+  </EntityType>
+  <Association Name="FK_ordenDesayuno_desayuno">
+    <End Role="desayuno" Type="Self.desayuno" Multiplicity="0..1" />
+    <End Role="ordenDesayuno" Type="Self.ordenDesayuno" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="desayuno">
+        <PropertyRef Name="idDesayuno" />
+      </Principal>
+      <Dependent Role="ordenDesayuno">
+        <PropertyRef Name="idDesayuno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="clase12ModelStoreContainer">
+    <EntitySet Name="desayuno" EntityType="Self.desayuno" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ordenDesayuno" EntityType="Self.ordenDesayuno" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ordenDesayuno_desayuno" Association="Self.FK_ordenDesayuno_desayuno">
+      <End Role="desayuno" EntitySet="desayuno" />
+      <End Role="ordenDesayuno" EntitySet="ordenDesayuno" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="clase12Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="desayuno">
+    <Key>
+      <PropertyRef Name="idDesayuno" />
+    </Key>
+    <Property Name="idDesayuno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="precio8" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="precio9" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="ordenDesayunoes" Relationship="Self.FK_ordenDesayuno_desayuno" FromRole="desayuno" ToRole="ordenDesayuno" />
+  </EntityType>
+  <EntityType Name="ordenDesayuno">
+    <Key>
+      <PropertyRef Name="idOrdenDesayuno" />
+    </Key>
+    <Property Name="idOrdenDesayuno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="idDesayuno" Type="Int32" />
+    <Property Name="tamano" Type="Int32" />
+    <Property Name="total" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="cantidad" Type="Int32" />
+    <NavigationProperty Name="desayuno" Relationship="Self.FK_ordenDesayuno_desayuno" FromRole="ordenDesayuno" ToRole="desayuno" />
+  </EntityType>
+  <Association Name="FK_ordenDesayuno_desayuno">
+    <End Role="desayuno" Type="Self.desayuno" Multiplicity="0..1" />
+    <End Role="ordenDesayuno" Type="Self.ordenDesayuno" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="desayuno">
+        <PropertyRef Name="idDesayuno" />
+      </Principal>
+      <Dependent Role="ordenDesayuno">
+        <PropertyRef Name="idDesayuno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="clase12Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="desayunoes" EntityType="Self.desayuno" />
+    <EntitySet Name="ordenDesayunoes" EntityType="Self.ordenDesayuno" />
+    <AssociationSet Name="FK_ordenDesayuno_desayuno" Association="Self.FK_ordenDesayuno_desayuno">
+      <End Role="desayuno" EntitySet="desayunoes" />
+      <End Role="ordenDesayuno" EntitySet="ordenDesayunoes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -31,7 +31,7 @@
                                     else if (item.dtb_svc_sts_id == 2)
                                     {
                                         <div class="col-md-6">
-                                            <a class="btn btn-warning" href="">
+                                            <a class="btn btn-warning" href="@Url.Action("OrderDtb", "Salon",new { pSrv_id = item.dtb_act_svc_id })">
                                                 <span class="btn-label">
                                                     <i class="material-icons">add_shopping_cart</i>
                                                 </span>
@@ -40,7 +40,7 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6">
-                                            <a class="btn btn-danger" href="">
+                                            <a class="btn btn-danger" href="@Url.Action("PrtAccDtb", "Salon",new { pSrv_id = item.dtb_act_svc_id })">
                                                 <span class="btn-label">
                                                     <i class="material-icons">receipt</i>
                                                 </span>
@@ -51,7 +51,7 @@
                                     }
                                     else
                                     {
-                                        <a class="btn btn-primary btn-info" href="">
+                                        <a class="btn btn-primary btn-info" href="@Url.Action("ViewAccDtb", "Salon",new { pSrv_id = item.dtb_act_svc_id })">
                                             <span class="btn-label">
                                                 <i class="material-icons">pageview</i>
                                             </span>

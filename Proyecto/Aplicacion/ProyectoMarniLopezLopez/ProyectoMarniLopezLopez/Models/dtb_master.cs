@@ -24,6 +24,7 @@ namespace ProyectoMarniLopezLopez.Models
         public bool dtb_status { get; set; }
         public string dtb_descr { get; set; }
         public int dtb_svc_sts_id { get; set; }
+        public Nullable<int> dtb_act_svc_id { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<srv_master> srv_master { get; set; }

@@ -1,0 +1,175 @@
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\ApplicationInsights.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\csc.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\System.Collections.Immutable.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\vbc.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\VBCSCompiler.exe
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\roslyn\VBCSCompiler.exe.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\ElReporte.dll.config
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\ElReporte.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\ElReporte.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.DependencyCollector.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.Web.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.WindowsServer.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.ApplicationInsights.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.DependencyCollector.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.Web.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.WindowsServer.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.ApplicationInsights.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\obj\Debug\ElReporte.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\obj\Debug\ElReporte.pdb
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\obj\Debug\RdlCompile.cache
+D:\Dropbox (Anterior)\ISW-711\2018\Clase13\Solucion\Examen2WilberthMolina\ElReporte\obj\Debug\RdlCompile.compiled
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ApplicationInsights.config
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\csc.exe
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\vbc.exe
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\VBCSCompiler.exe
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ElReporte.dll.config
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ElReporte.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ElReporte.pdb
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.Web.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.SqlServer.Types.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\EnvDTE.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\stdole.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\EnvDTE80.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.Build.Tasks.Core.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\VSLangProj.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\VSLangProj80.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Newtonsoft.Json.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.MSXML.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.Build.Utilities.Core.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.Build.Framework.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\VSLangProj2.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\System.Collections.Immutable.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.Web.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\obj\Debug\ElReporte.csprojResolveAssemblyReference.cache
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\obj\Debug\ElReporte.csproj.CoreCompileInputs.cache
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\obj\Debug\ElReporte.csproj.CopyComplete
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\obj\Debug\ElReporte.dll
+C:\Users\SA\Desktop\BaseExamen\Examen2WilberthMolina\ElReporte\obj\Debug\ElReporte.pdb

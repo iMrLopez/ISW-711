@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ProyectoMarniLopezLopez.Models.srv_master>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container-fluid">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            if (item.dtb_svc_sts.dtb_svc_sts_id == 3)
+            {
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="card card-stats">
+                        <div class="card-header" data-background-color="red">
+                            <i class="material-icons">event_seat</i>
+                        </div>
+                        <div class="card-content">
+                            <p class="category">Mesa</p>
+                            <h3 class="card-title">@Html.DisplayFor(modelItem => item.dtb_id)</h3>
+                            <div class="row">
+                                <div class="col-md-12" style="text-align:center;">
+                                    <a class="btn btn-primary btn-warning" href="@Url.Action("PrtAccDtb", "Salon",new { pSrv_id = item.srv_id })">
+                                        <span class="btn-label">
+                                            <i class="material-icons">pageview</i>
+                                        </span>
+                                        Visualizar Cuenta de la mesa
+                                        <div class="ripple-container"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="stats">
+                                <i class="material-icons text-danger"></i>
+                                <span>Estado actual: @Html.DisplayFor(modelItem => item.dtb_svc_sts.dtb_svc_sts_dsc)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

@@ -151,11 +151,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\FacturaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\IActionResult.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ReportController.cs" />
     <Compile Include="Controllers\SalonController.cs" />
     <Compile Include="Controllers\TableController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -215,7 +216,6 @@
     <Content Include="Content\img\avatar.png" />
     <Content Include="Content\material-dashboard.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Models\prj_marnylopezModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -266,15 +266,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Folder Include="fonts\" />
+    <Folder Include="Reports\" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Models\prj_marnylopezModel.edmx">
@@ -317,6 +310,15 @@
     <Content Include="Views\Table\Edit.cshtml" />
     <Content Include="Views\Table\Index.cshtml" />
     <Content Include="Views\Salon\OpenDtb.cshtml" />
+    <Content Include="Views\Salon\OrderDtb.cshtml" />
+    <Content Include="Views\Salon\ViewAccDtb.cshtml" />
+    <Content Include="Views\Salon\PrtAccDtb.cshtml" />
+    <Content Include="Views\Factura\Create.cshtml" />
+    <Content Include="Views\Factura\Delete.cshtml" />
+    <Content Include="Views\Factura\Details.cshtml" />
+    <Content Include="Views\Factura\RealizarFacturacion.cshtml" />
+    <Content Include="Views\Factura\Index.cshtml" />
+    <Content Include="Views\Report\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

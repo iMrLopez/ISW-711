@@ -18,6 +18,7 @@
     <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_master_dtb_master" FromRole="dtb_master" ToRole="srv_master" />
     <Property Name="dtb_svc_sts_id" Type="Int32" Nullable="false" />
     <NavigationProperty Name="dtb_svc_sts" Relationship="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts" FromRole="dtb_master" ToRole="dtb_svc_sts" />
+    <Property Name="dtb_act_svc_id" Type="Int32" />
   </EntityType>
   <EntityType Name="pay_master">
     <Key>
@@ -65,6 +66,7 @@
     <NavigationProperty Name="srv_detail" Relationship="Self.FK_srv_detail_srv_master" FromRole="srv_master" ToRole="srv_detail" />
     <NavigationProperty Name="sts_master" Relationship="Self.FK_srv_master_sts_master" FromRole="srv_master" ToRole="sts_master" />
     <NavigationProperty Name="usr_master" Relationship="Self.FK_srv_master_usr_master" FromRole="srv_master" ToRole="usr_master" />
+    <NavigationProperty Name="dtb_svc_sts" Relationship="prj_marnylopezModel.FK_srv_master_sts_master1" FromRole="srv_master" ToRole="dtb_svc_sts" />
   </EntityType>
   <EntityType Name="sts_master">
     <Key>
@@ -90,9 +92,7 @@
   </EntityType>
   <EntityType Name="srv_detail">
     <Key>
-      <PropertyRef Name="srv_id" />
-      <PropertyRef Name="srv_qty" />
-      <PropertyRef Name="prd_id" />
+      <PropertyRef Name="srv_dtl_id" />
     </Key>
     <Property Name="srv_id" Type="Int32" Nullable="false" />
     <Property Name="srv_qty" Type="Int32" Nullable="false" />
@@ -100,6 +100,7 @@
     <Property Name="prd_id" Type="Int32" Nullable="false" />
     <NavigationProperty Name="prd_master" Relationship="Self.FK_srv_detail_prd_master" FromRole="srv_detail" ToRole="prd_master" />
     <NavigationProperty Name="srv_master" Relationship="Self.FK_srv_detail_srv_master" FromRole="srv_detail" ToRole="srv_master" />
+    <Property Name="srv_dtl_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
   </EntityType>
   <Association Name="FK_prd_master_cat_master">
     <End Role="cat_master" Type="Self.cat_master" Multiplicity="1" />
@@ -276,6 +277,10 @@
       <End Role="dtb_svc_sts" EntitySet="dtb_svc_sts" />
       <End Role="dtb_master" EntitySet="dtb_master" />
     </AssociationSet>
+    <AssociationSet Name="FK_srv_master_sts_master1" Association="prj_marnylopezModel.FK_srv_master_sts_master1">
+      <End Role="dtb_svc_sts" EntitySet="dtb_svc_sts" />
+      <End Role="srv_master" EntitySet="srv_master" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="dtb_svc_sts">
     <Key>
@@ -284,6 +289,7 @@
     <Property Name="dtb_svc_sts_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="dtb_svc_sts_dsc" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="dtb_master" Relationship="prj_marnylopezModel.FK_dtb_master_dtb_svc_sts" FromRole="dtb_svc_sts" ToRole="dtb_master" />
+    <NavigationProperty Name="srv_master" Relationship="prj_marnylopezModel.FK_srv_master_sts_master1" FromRole="dtb_svc_sts" ToRole="srv_master" />
   </EntityType>
   <Association Name="FK_dtb_master_dtb_svc_sts">
     <End Type="prj_marnylopezModel.dtb_svc_sts" Role="dtb_svc_sts" Multiplicity="1" />
@@ -294,6 +300,18 @@
       </Principal>
       <Dependent Role="dtb_master">
         <PropertyRef Name="dtb_svc_sts_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_srv_master_sts_master1">
+    <End Type="prj_marnylopezModel.dtb_svc_sts" Role="dtb_svc_sts" Multiplicity="1" />
+    <End Type="prj_marnylopezModel.srv_master" Role="srv_master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dtb_svc_sts">
+        <PropertyRef Name="dtb_svc_sts_id" />
+      </Principal>
+      <Dependent Role="srv_master">
+        <PropertyRef Name="sts_id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

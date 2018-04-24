@@ -12,6 +12,7 @@
     <EntitySetMapping Name="dtb_master">
       <EntityTypeMapping TypeName="prj_marnylopezModel.dtb_master">
         <MappingFragment StoreEntitySet="dtb_master">
+          <ScalarProperty Name="dtb_act_svc_id" ColumnName="dtb_act_svc_id" />
           <ScalarProperty Name="dtb_svc_sts_id" ColumnName="dtb_svc_sts_id" />
           <ScalarProperty Name="dtb_id" ColumnName="dtb_id" />
           <ScalarProperty Name="dtb_status" ColumnName="dtb_status" />
@@ -81,6 +82,7 @@
     <EntitySetMapping Name="srv_detail">
       <EntityTypeMapping TypeName="prj_marnylopezModel.srv_detail">
         <MappingFragment StoreEntitySet="srv_detail">
+          <ScalarProperty Name="srv_dtl_id" ColumnName="srv_dtl_id" />
           <ScalarProperty Name="srv_id" ColumnName="srv_id" />
           <ScalarProperty Name="srv_qty" ColumnName="srv_qty" />
           <ScalarProperty Name="srv_notes" ColumnName="srv_notes" />

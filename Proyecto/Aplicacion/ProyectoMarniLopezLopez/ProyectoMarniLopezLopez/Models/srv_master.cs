@@ -34,5 +34,6 @@ namespace ProyectoMarniLopezLopez.Models
         public virtual ICollection<srv_detail> srv_detail { get; set; }
         public virtual sts_master sts_master { get; set; }
         public virtual usr_master usr_master { get; set; }
+        public virtual dtb_svc_sts dtb_svc_sts { get; set; }
     }
 }

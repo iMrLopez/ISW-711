@@ -18,6 +18,7 @@ namespace ProyectoMarniLopezLopez.Models
         public int srv_qty { get; set; }
         public string srv_notes { get; set; }
         public int prd_id { get; set; }
+        public int srv_dtl_id { get; set; }
     
         public virtual prd_master prd_master { get; set; }
         public virtual srv_master srv_master { get; set; }
