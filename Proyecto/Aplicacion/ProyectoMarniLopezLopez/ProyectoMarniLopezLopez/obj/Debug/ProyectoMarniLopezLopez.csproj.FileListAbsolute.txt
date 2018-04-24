@@ -178,3 +178,4 @@ C:\Users\lopezlom\Desktop\Proyecto\Proyecto\Aplicacion\ProyectoMarniLopezLopez\P
 C:\Users\lopezlom\Desktop\Proyecto\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.dll
 C:\Users\lopezlom\Desktop\Proyecto\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.pdb
 C:\Users\lopezlom\Desktop\Proyecto\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.csprojResolveAssemblyReference.cache
+D:\Repositories\UTN\ISW-711\Proyecto\Aplicacion\ProyectoMarniLopezLopez\ProyectoMarniLopezLopez\obj\Debug\ProyectoMarniLopezLopez.csproj.CopyComplete

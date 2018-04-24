@@ -45,7 +45,7 @@ namespace ProyectoMarniLopezLopez.Controllers
         {
             if (ModelState.IsValid)
             {
-               /* srv_master servicioActual = db.srv_master.Find(srv_master.srv_id);
+                srv_master servicioActual = db.srv_master.Find(srv_master.srv_id);
                 dtb_master mesaActual = db.dtb_master.Find(servicioActual.dtb_id);
 
                 mesaActual.dtb_act_svc_id = 0; //Reiniciar el servicio asignado a la mesa actual
@@ -53,11 +53,8 @@ namespace ProyectoMarniLopezLopez.Controllers
                 servicioActual.sts_id = 4; //Poner el servicio en pagado
 
                 db.Entry(mesaActual).State = EntityState.Modified;
-
                 db.Entry(servicioActual).State = EntityState.Modified;
-                db.SaveChanges();*/
-
-                
+                db.SaveChanges();
             }
             return RedirectToAction("Index");
         }

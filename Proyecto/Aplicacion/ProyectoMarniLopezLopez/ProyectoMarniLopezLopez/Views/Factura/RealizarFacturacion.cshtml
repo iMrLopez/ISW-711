@@ -4,6 +4,7 @@
     ViewBag.Title = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <div class="col-md-12">
     <div class="card">
         <div class="card-header card-header-icon" data-background-color="blue">
@@ -15,48 +16,54 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    @using (Html.BeginForm("RealizarFacturacion", "Factura", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "validarFormulario(event)" }))
+                    @using (Html.BeginForm("RealizarFacturacion", "Factura", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "return validarFormulario(event)" }))
                     {
                         @Html.AntiForgeryToken()
-                        <div class="form-horizontal">
-                            <hr />
-                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                            @Html.HiddenFor(model => model.srv_id)
+                    <div class="form-horizontal">
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.srv_id)
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.pay_id, "Tipo de pago", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.DropDownList("pay_id", null, htmlAttributes: new { @class = "form-control", @onchange = "mostrarCombosPorTipoPagoSeleccionado(this.value);" })
+                                @Html.ValidationMessageFor(model => model.pay_id, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p class="control-label col-md-2">Total a pagar</p>
+                            <div class="col-md-10">
+                                <input type="number" readonly class="form-control" value="@Html.DisplayFor(model => model.srv_total)" id="srv_total"/>
+                            </div>
+                        </div>
+                        <div id="pagoTarjeta" style="display:none;">
                             <div class="form-group">
-                                @Html.LabelFor(model => model.pay_id, "Tipo de pago", htmlAttributes: new { @class = "control-label col-md-2" })
+                                <label for="NumeroTarjeta" class="control-label col-md-2">Numero de la tarjeta</label>
                                 <div class="col-md-10">
-                                    @Html.DropDownList("pay_id", null, htmlAttributes: new { @class = "form-control", @onchange = "mostrarCombosPorTipoPagoSeleccionado(this.value);" })
-                                    @Html.ValidationMessageFor(model => model.pay_id, "", new { @class = "text-danger" })
-                                </div>
-                            </div>
-                            <div id="pagoTarjeta" style="display:none;">
-                                <div class="form-group">
-                                    <label for="NumeroTarjeta" class="control-label col-md-2">Numero de la tarjeta</label>
-                                    <div class="col-md-10">
-                                        <input type="number" class="form-control" min="1" id="NumeroTarjeta" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="MontoTarjeta" class="control-label col-md-2">Monto de la tarjeta</label>
-                                    <div class="col-md-10">
-                                        <input type="number" class="form-control" min="1" id="MontoTarjeta" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="pagoEfectivo" style="display:none;">
-                                <div class="form-group">
-                                    <label for="pagoEfectivo" class="control-label col-md-2">Pago en Efectivo</label>
-                                    <div class="col-md-10">
-                                        <input type="number" class="form-control" min="1" id="MontoEfectivo" />
-                                    </div>
+                                    <input type="number" class="form-control" min="1" id="NumeroTarjeta" />
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-md-offset-2 col-md-10">
-                                    <input type="submit" value="Save" class="btn btn-default" />
+                                <label for="MontoTarjeta" class="control-label col-md-2">Monto de la tarjeta</label>
+                                <div class="col-md-10">
+                                    <input type="number" class="form-control" min="1" id="MontoTarjeta" />
                                 </div>
                             </div>
                         </div>
+                        <div id="pagoEfectivo" style="display:none;">
+                            <div class="form-group">
+                                <label for="pagoEfectivo" class="control-label col-md-2">Pago en Efectivo</label>
+                                <div class="col-md-10">
+                                    <input type="number" class="form-control" min="1" id="MontoEfectivo" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Save" class="btn btn-default" />
+                            </div>
+                        </div>
+                    </div>
                     }
                 </div>
             </div>
@@ -68,7 +75,7 @@
     @Html.ActionLink("Volver al listado", "Index")
 </div>
 
-<script>
+<script type="text/javascript">
     //Manejar el cambio del index en el tipo de pago
     function mostrarCombosPorTipoPagoSeleccionado(p1) {
         //alert(p1);
@@ -92,9 +99,54 @@
 
     //Manejar el submit del formulario
     function validarFormulario(event) {
-        alert("TODO esto");
-        false;
+        var srv_total = document.getElementById("srv_total").value;
+        var pagoTarjeta = document.getElementById("MontoTarjeta").value;
+        var pagoEfectivo = document.getElementById("MontoEfectivo").value;
+        var NumeroTarjeta = document.getElementById("NumeroTarjeta").value;
+
+        switch (document.getElementById("pay_id").value) {
+            case "1": //Solo tarjeta
+                if (srv_total == pagoTarjeta) {
+                    if (validateCardNumber(NumeroTarjeta)) {
+                        return true;
+                    }
+                }
+            case "2": //Solo efectivo
+                if (srv_total == pagoEfectivo) {
+                    return true;
+                }
+            case "3": //Mixto
+                if (srv_total == (pagoEfectivo + pagoTarjeta)) {
+                    if (validateCardNumber(NumeroTarjeta)) {
+                        return true;
+                    } 
+                }
+            default:
+        }
+        alert("Por favor verifica los datos ingresados, no podemos procesar pagos incompletos");
+        return false;
     }
 
+    //Validar la tarjeta
+    function validateCardNumber(number) {
+        var regex = new RegExp("^[0-9]{16}$");
+        if (!regex.test(number))
+            return false;
 
+        return luhnCheck(number);
+    }
+    function luhnCheck(val) {
+        var sum = 0;
+        for (var i = 0; i < val.length; i++) {
+            var intVal = parseInt(val.substr(i, 1));
+            if (i % 2 == 0) {
+                intVal *= 2;
+                if (intVal > 9) {
+                    intVal = 1 + (intVal % 10);
+                }
+            }
+            sum += intVal;
+        }
+        return (sum % 10) == 0;
+    }
 </script>
