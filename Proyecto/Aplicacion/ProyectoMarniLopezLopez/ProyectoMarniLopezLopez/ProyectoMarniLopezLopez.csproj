@@ -213,7 +213,10 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\demo.css" />
+    <Content Include="Content\img\admin.jpg" />
     <Content Include="Content\img\avatar.png" />
+    <Content Include="Content\img\login.jpg" />
+    <Content Include="Content\img\waiter.jpg" />
     <Content Include="Content\material-dashboard.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -265,6 +268,7 @@
     <Content Include="Views\Home\IndexAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="fonts\" />
     <Folder Include="Reports\" />
   </ItemGroup>
@@ -276,7 +280,7 @@
     <Content Include="Models\prj_marnylopezModel.edmx.diagram">
       <DependentUpon>prj_marnylopezModel.edmx</DependentUpon>
     </Content>
-    <Content Include="App_Data\Ventas.xlsx" />
+    <Content Include="Content\Ventas.xlsx" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_sidebar-waiter.cshtml" />
     <Content Include="Views\Shared\_topnavbar.cshtml" />
@@ -319,6 +323,7 @@
     <Content Include="Views\Factura\RealizarFacturacion.cshtml" />
     <Content Include="Views\Factura\Index.cshtml" />
     <Content Include="Views\Report\Index.cshtml" />
+    <Content Include="Views\Product\IndexWaiter.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

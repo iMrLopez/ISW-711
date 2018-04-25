@@ -11,7 +11,8 @@ namespace ProyectoMarniLopezLopez.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class sts_master
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,8 +22,9 @@ namespace ProyectoMarniLopezLopez.Models
             this.srv_master = new HashSet<srv_master>();
             this.usr_master = new HashSet<usr_master>();
         }
-    
+        [Display(Name = "Estado No")]
         public int sts_id { get; set; }
+        [Display(Name = "Estado")]
         public string sts_dsc { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

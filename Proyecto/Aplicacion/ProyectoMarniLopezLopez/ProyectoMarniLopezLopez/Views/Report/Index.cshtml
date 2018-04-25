@@ -4,6 +4,37 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>TODO Terminar</h2>
+<div class="container-fluid">
+    <div class="row">
 
-<a href="~/App_Data/Ventas.xlsx">Reporte de Ventas</a>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="blue">
+                    <i class="material-icons">picture_as_pdf</i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Reporte</p>
+                    <h3 class="card-title">Ventas</h3>
+                    <div class="row">
+                        <div class="col-md-12" style="text-align:center;">
+                            <a class="btn btn-primary btn-info" href="~/Content/Ventas.xlsx" target="_blank">
+                                <span class="btn-label">
+                                    <i class="material-icons">file_download</i>
+                                </span>
+                                Generar Reporte
+                                <div class="ripple-container"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons text-danger"></i>
+                        <span>Se descargara un archivo Excel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

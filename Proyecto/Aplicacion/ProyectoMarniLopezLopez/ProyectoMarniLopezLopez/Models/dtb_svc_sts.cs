@@ -11,7 +11,8 @@ namespace ProyectoMarniLopezLopez.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class dtb_svc_sts
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -20,8 +21,9 @@ namespace ProyectoMarniLopezLopez.Models
             this.dtb_master = new HashSet<dtb_master>();
             this.srv_master = new HashSet<srv_master>();
         }
-    
+        [Display(Name = "Id de servicio")]
         public int dtb_svc_sts_id { get; set; }
+        [Display(Name = "Estado")]
         public string dtb_svc_sts_dsc { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

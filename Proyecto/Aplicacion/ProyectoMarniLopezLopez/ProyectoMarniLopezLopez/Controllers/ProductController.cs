@@ -14,8 +14,15 @@ namespace ProyectoMarniLopezLopez.Controllers
     {
         private prj_marnylopezEntities1 db = new prj_marnylopezEntities1();
 
-        // GET: Product
+        // GET: Product 4 admin
         public ActionResult Index()
+        {
+            var prd_master = db.prd_master.Include(p => p.cat_master).Include(p => p.sts_master);
+            return View(prd_master.ToList());
+        }
+
+        // GET: Product 4 waiter
+        public ActionResult IndexWaiter()
         {
             var prd_master = db.prd_master.Include(p => p.cat_master).Include(p => p.sts_master);
             return View(prd_master.ToList());
